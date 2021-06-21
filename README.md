@@ -10,56 +10,70 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 
 **Naive Random Oversampling
 
-* Balance Accuracy: 0.6495
-* 
-* High Risk Precision: .01
-* 
-* High Risk Recall: 0.73
-* 
-* Low Risk Precision: 1.00
-* 
+* Balance Accuracy: 0.6495 
+* High Risk Precision: 0.01 
+* High Risk Recall: 0.73 
+* Low Risk Precision: 1.00 
 * Low Risk Recall: 0.57
+
+![Naive Random Oversampling](https://user-images.githubusercontent.com/78942457/122699171-e3545380-d216-11eb-90a8-0db626b2183f.PNG)
+
 
 **SMOTE Oversampling
 
 * Balance Accuracy: 0.6584
-* High Risk Precision: .01
+* High Risk Precision: 0.01
 * High Risk Recall: 0.63
 * Low Risk Precision: 1.00
 * Low Risk Recall: 0.68
 
+![SMOTE Oversampling](https://user-images.githubusercontent.com/78942457/122699178-e64f4400-d216-11eb-9885-b0e91e4c6206.PNG)
+
+
 **Undersampling
 
-* Balance Accuracy: 
-* High Risk Precision: 
-* High Risk Recall: 
-* Low Risk Precision: 
-* Low Risk Recall: 
+* Balance Accuracy: 0.6584
+* High Risk Precision: 0.01
+* High Risk Recall: 0.69
+* Low Risk Precision: 1.00
+* Low Risk Recall: 0.40
+
+![Undersampling](https://user-images.githubusercontent.com/78942457/122699193-ef401580-d216-11eb-8f40-53abd126abef.PNG)
+
 
 **Combination (Over and Under) Sampling
 
-* Balance Accuracy: 
-* High Risk Precision: 
-* High Risk Recall: 
-* Low Risk Precision: 
-* Low Risk Recall: 
+* Balance Accuracy: .5442
+* High Risk Precision: 0.01
+* High Risk Recall: 0.78
+* Low Risk Precision: 1.00
+* Low Risk Recall: 0.54
+
+![Combination](https://user-images.githubusercontent.com/78942457/122699201-f2d39c80-d216-11eb-8662-52e1c5baae55.PNG)
+
 
 ## Ensemble
 
 **Balanced Random Forest Classifier
 
-* Balance Accuracy: 
-* High Risk Precision: 
-* High Risk Recall: 
-* Low Risk Precision: 
-* Low Risk Recall: 
+* Balance Accuracy: 0.7885
+* High Risk Precision: 0.03
+* High Risk Recall: 0.70
+* Low Risk Precision: 1.00
+* Low Risk Recall: 0.87
+
+![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/78942457/122699210-f6672380-d216-11eb-84df-857c756eef30.PNG)
+
 
 **Easy Ensemble AdaBoost Classifier
 
-* Balance Accuracy: 
-* High Risk Precision: 
-* High Risk Recall: 
-* Low Risk Precision: 
-* Low Risk Recall: 
+* Balance Accuracy: 0.9317
+* High Risk Precision: 0.09
+* High Risk Recall: 0.92
+* Low Risk Precision: 1.00
+* Low Risk Recall: 0.94
+
+![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/78942457/122699215-f9621400-d216-11eb-911c-3b94216763f3.PNG)
+
 
 # Summary
