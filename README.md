@@ -8,7 +8,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 
 ## Resampling
 
-**Naive Random Oversampling
+**Naive Random Oversampling**
 
 * Balance Accuracy: 0.6495 
 * High Risk Precision: 0.01 
@@ -19,7 +19,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 ![Naive Random Oversampling](https://user-images.githubusercontent.com/78942457/122699171-e3545380-d216-11eb-90a8-0db626b2183f.PNG)
 
 
-**SMOTE Oversampling
+**SMOTE Oversampling**
 
 * Balance Accuracy: 0.6584
 * High Risk Precision: 0.01
@@ -30,7 +30,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 ![SMOTE Oversampling](https://user-images.githubusercontent.com/78942457/122699178-e64f4400-d216-11eb-9885-b0e91e4c6206.PNG)
 
 
-**Undersampling
+**Undersampling**
 
 * Balance Accuracy: 0.6584
 * High Risk Precision: 0.01
@@ -41,7 +41,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 ![Undersampling](https://user-images.githubusercontent.com/78942457/122699193-ef401580-d216-11eb-8f40-53abd126abef.PNG)
 
 
-**Combination (Over and Under) Sampling
+**Combination (Over and Under) Sampling**
 
 * Balance Accuracy: .5442
 * High Risk Precision: 0.01
@@ -54,7 +54,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 
 ## Ensemble
 
-**Balanced Random Forest Classifier
+**Balanced Random Forest Classifier**
 
 * Balance Accuracy: 0.7885
 * High Risk Precision: 0.03
@@ -65,7 +65,7 @@ The balanced accuracy scores, precision and recall scores of all six machine lea
 ![Balanced Random Forest Classifier](https://user-images.githubusercontent.com/78942457/122699210-f6672380-d216-11eb-84df-857c756eef30.PNG)
 
 
-**Easy Ensemble AdaBoost Classifier
+**Easy Ensemble AdaBoost Classifier**
 
 * Balance Accuracy: 0.9317
 * High Risk Precision: 0.09
